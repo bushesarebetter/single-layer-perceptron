@@ -17,7 +17,7 @@ public class Perceptron {
 		weights = new float[n];
 		for (int i = 0; i < weights.length; i++) {
 			weights[i] = rand.nextFloat(-1, 1);
-			weights[i] = -1.0f;
+			//weights[i] = -1.0f;
 			System.out.println(weights[i]);
 		}
 	}
